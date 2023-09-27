@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/png" href="logo">
+    <title>Emporter</title>
+    <style>
+        * {
+            transition: 1s;
+        }
+
+        ::-webkit-scrollbar {
+            background-color: transparent;
+            background-color: rgb(216, 255, 215);
+            width: 6px;
+        }
+
+        ::-webkit-scrollbar-thumb {
+            background-color: transparent;
+            background-color: rgb(140, 253, 136);
+        }
+
+        ::-webkit-scrollbar-corner {
+            background-color: transparent;
+            background-color: rgb(140, 253, 136);
+        }
+
+        @media(min-width :951px) {
+            body {
+                background-color: rgb(140, 253, 136);
+                overflow: auto;
+                background-image: url("resto.jpg");
+                background-size: cover;
+                margin: 0;
+                background-repeat: no-repeat;
+            }
+
+            a {
+                background-color: rgb(140, 253, 136);
+                text-shadow: 0px 0px 5px greenyellow;
+                color: rgb(0, 82, 20);
+                text-decoration: none;
+                padding: 10px;
+                font-size: 20px;
+                border-radius: 6px;
+            }
+
+            p {
+                background-color: rgb(140, 253, 136);
+                text-shadow: 0px 0px 5px greenyellow;
+                color: rgb(0, 82, 20);
+                padding: 10px;
+                font-size: 20px;
+                border-radius: 6px;
+                width: 330px;
+            }
+
+            #menu {
+                border-radius: 9px;
+                left: 30%;
+                top: 30px;
+                background-position: center;
+                position: relative;
+                height: 660px;
+                width: 500px;
+            }
+        }
+
+        @media(max-width:950px) {
+            body {
+                background-color: rgb(140, 253, 136);
+                margin: 0;
+            }
+
+            a {
+                background-color: rgb(216, 255, 215);
+                text-shadow: 0px 0px 5px greenyellow;
+                color: rgb(0, 82, 20);
+                text-decoration: none;
+                padding: 10px;
+                font-size: 20px;
+                border-radius: 6px;
+            }
+
+            p {
+                text-align: center;
+                background-color: rgb(216, 255, 215);
+                text-shadow: 0px 0px 5px greenyellow;
+                color: rgb(0, 82, 20);
+                padding: 10px;
+                font-size: 20px;
+                border-radius: 6px;
+            }
+
+            #menu {
+                margin-top: 10px;
+                width: 100%
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+    <div>
+        <a href="index.html" id="retour">Retour</a>
+    </div>
+    <p>Commandez à emporter au 0123456789</p>
+    <div>
+        <img src="menu.jpg" id="menu" alt="">
+    </div>
+
+</body>
+
+</html>
